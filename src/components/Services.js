@@ -4,22 +4,27 @@ import ServicePopup from "./popup/ServicePopup";
 
 const serviceData = [
   {
-    name: "Тафсир",
-    img: "img/service/1.jpg",
+    name: "История ниспослания и собирания Корана",
+    img: "img/book_1.jpg",
     description: [
-      "Тафсир (толкование Корана с размышлением). Есть занятия для начинающих",
+      "Данное пособие представляет собой конспекты лекций, раскрывающих основные вопросы, связанные с историей ниспослания Священного Корана. Пособие основано на достоверных хадисах и высказываниях ученых. Адресовано преподавателям и студентам духовных учебных заведений. Рекомендовано для преподавания в медресе и онлайн школах.",
     ],
   },
   {
-    name: "Акыда",
-    img: "img/service/2.jpg",
-    description: ["Акыда (вероучение). Есть занятия для начинающих"],
+    name: "Что после смерти",
+    img: "img/book_2.JPG",
+    description: ["Описание добавть позже"],
   },
 
   {
-    name: "Хадис",
-    img: "img/service/4.jpg",
-    description: ["Хадис. Есть занятия для начинающих"],
+    name: "Дорога в вечность. Обряды похорон в исламе",
+    img: "img/book_3.jpg",
+    description: ["Описание добавть позже"],
+  },
+  {
+    name: "Хочу понимать Коран",
+    img: "img/book_4.jpg",
+    description: ["Описание добавть позже"],
   },
 ];
 
@@ -43,11 +48,7 @@ const Services = () => {
           <div className="container">
             <div className="orido_tm_main_title">
               <h3>
-                <span>
-                  Что я
-                  <br />
-                  Предлагаю
-                </span>
+                <span>Мои книги</span>
               </h3>
             </div>
             <div className="service_list">
@@ -82,7 +83,7 @@ const Services = () => {
                       {/* Modalbox Info Start */}
                       <img
                         className="popup_service_image"
-                        src="img/service/1.jpg"
+                        src={service.img}
                         alt=""
                       />
                     </div>

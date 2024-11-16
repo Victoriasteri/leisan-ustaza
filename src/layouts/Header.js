@@ -28,9 +28,7 @@ const Header = ({ dark }) => {
             <li>
               <a href="#portfolio">Мои книги</a>
             </li>
-            {/* <li>
-              <a href="#blog"></a>
-            </li> */}
+
             <li>
               <a href="#contact">Контакты</a>
             </li>

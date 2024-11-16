@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 
 const MobileMenu = () => {
@@ -8,7 +9,12 @@ const MobileMenu = () => {
         <div className="mobile_in">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/logo.png" alt="" />
+              <Image
+                src="/img/quran-green.png"
+                alt="logo"
+                width={50}
+                height={50}
+              />
             </a>
           </div>
           <div className="trigger" onClick={() => setToggle(!toggle)}>
