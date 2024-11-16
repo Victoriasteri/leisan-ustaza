@@ -5,7 +5,7 @@ const CopyRight = () => {
         <div className="container">
           <div className="copyright_inner">
             <div className="logo">
-              <img src="img/logo/logo.png" alt="" />
+              <img src="img/leisan-black.png" alt="" />
             </div>
             <div className="copy">
               <p>

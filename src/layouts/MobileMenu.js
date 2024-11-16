@@ -8,12 +8,12 @@ const MobileMenu = () => {
       <div className="mobile_menu_inner">
         <div className="mobile_in">
           <div className="logo">
-            <a href="#">
+            <a href="#" style={{ paddingTop: 10 }}>
               <Image
-                src="/img/quran-green.png"
+                src="/img/leisan-black.png"
                 alt="logo"
-                width={50}
-                height={50}
+                width={119}
+                height={28}
               />
             </a>
           </div>
@@ -40,11 +40,11 @@ const MobileMenu = () => {
               <a href="#about">Обо мне</a>
             </li>
             <li>
-              <a href="#service">Услуги</a>
+              <a href="#service">Мои книги</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio">Мои книги</a>
-            </li>
+            </li> */}
             {/* <li>
               <a href="#blog">Blog</a>
             </li> */}

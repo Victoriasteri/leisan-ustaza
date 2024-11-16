@@ -1,32 +1,23 @@
+import Image from "next/image";
+
 const Contact = () => {
   return (
     <div className="orido_tm_section" id="contact">
       <div className="orido_tm_contact">
         <div className="container">
           <div className="infobox">
-            <div className="video_button">
-              <a
-                className="popup-youtube"
-                href="https://www.youtube.com/watch?v=7e90gBu4pas"
-              >
-                <img
-                  className="anim_circle"
-                  src="img/contact/video.png"
-                  alt=""
-                />
-                <img className="svg" src="img/svg/play.svg" alt="" />
-              </a>
-            </div>
+            <Image src="/img/contacts.png" alt="" width={500} height={500} />
             <div className="text">
-              <h3>{`Let's`} work together</h3>
+              <h3>Придумать текст</h3>
               <p>
                 You can express yourself however you want and whenever you want,
                 for free. You can customize a template or make your own.
               </p>
             </div>
             <div className="orido_tm_boxed_button">
-              <a href="#">
-                Say Hello <img className="svg" src="img/svg/send.svg" alt="" />
+              <a href="https://t.me/LeisanMilay">
+                Напишите мне
+                <img className="svg" src="img/svg/send.svg" alt="" />
               </a>
             </div>
           </div>
@@ -34,7 +25,7 @@ const Contact = () => {
             <div className="left">
               <ul>
                 <li>
-                  <span className="name">Call:</span>
+                  <span className="name">Телефон:</span>
                   <p>
                     <a className="line_effect" href="#">
                       +1 (234) 567 890
@@ -42,7 +33,7 @@ const Contact = () => {
                   </p>
                 </li>
                 <li>
-                  <span className="name">Email:</span>
+                  <span className="name">Почта:</span>
                   <p>
                     <a className="line_effect" href="#">
                       support@smith.com
@@ -53,7 +44,7 @@ const Contact = () => {
             </div>
             <div className="right">
               <div className="orido_tm_follow">
-                <span>Follow me:</span>
+                <span>Я в соцсетях:</span>
                 <ul>
                   <li>
                     <a href="#">

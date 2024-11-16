@@ -7,7 +7,7 @@ const Home = ({ dark }) => {
             <div className="short">
               <h3>
                 Лейсан Умм Ильсен{" "}
-                <img className="svg" src="img/svg/hi.svg" alt="" />
+                {/* <img className="svg" src="img/svg/hi.svg" alt="" /> */}
               </h3>
               <span className="job">Учитель Корана</span>
             </div>
@@ -22,7 +22,10 @@ const Home = ({ dark }) => {
                 </a>
               </div>
               <div className="orido_tm_simple_button">
-                <a className="line_effect anchor" href="#portfolio">
+                <a
+                  className="line_effect anchor"
+                  href="https://t.me/+g_TB0JykaQJkYzdi"
+                >
                   Телеграм канал
                   <img className="svg" src="img/svg/top-arrow.svg" alt="" />
                 </a>
@@ -30,7 +33,7 @@ const Home = ({ dark }) => {
             </div>
           </div>
         </div>
-        <div className="orido_tm_follow">
+        {/* <div className="orido_tm_follow">
           <span>Мои соцсети:</span>
           <ul>
             <li>
@@ -43,9 +46,9 @@ const Home = ({ dark }) => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
-      <div className="orido_tm_down">
+      {/* <div className="orido_tm_down">
         <a className="anchor" href="#about">
           <img
             className="svg"
@@ -53,7 +56,7 @@ const Home = ({ dark }) => {
             alt=""
           />
         </a>
-      </div>
+      </div> */}
       <div className="avatar">
         <div className="img">
           <img src="img/muslim.png" alt="" />

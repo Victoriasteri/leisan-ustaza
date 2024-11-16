@@ -36,7 +36,7 @@ const ExpertAreas = () => {
                   </p>
                 </div>
                 <div className="orido_tm_boxed_button">
-                  <a href="#">
+                  <a href="https://t.me/+g_TB0JykaQJkYzdi">
                     Мой канал
                     <img className="svg" src="img/svg/paper.svg" alt="" />
                   </a>

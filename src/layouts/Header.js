@@ -7,10 +7,10 @@ const Header = ({ dark }) => {
         <div className="logo">
           <a href="#">
             <Image
-              src="/img/quran-green.png"
+              src="/img/leisan-black.png"
               alt="logo"
-              width={50}
-              height={50}
+              width={159}
+              height={48}
             />
           </a>
         </div>
@@ -22,11 +22,9 @@ const Header = ({ dark }) => {
             <li>
               <a href="#about">Обо мне</a>
             </li>
+
             <li>
-              <a href="#service">Услуги</a>
-            </li>
-            <li>
-              <a href="#portfolio">Мои книги</a>
+              <a href="#service">Мои книги</a>
             </li>
 
             <li>

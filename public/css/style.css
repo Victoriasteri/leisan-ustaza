@@ -323,7 +323,8 @@ h6 {
 }
 .orido_tm_mobile_menu .mobile_in .logo img {
   max-width: 90px;
-  max-height: 70px;
+  max-height: 90px;
+  margin-top: 5px;
 }
 .orido_tm_mobile_menu .trigger {
   line-height: 0;
@@ -410,8 +411,8 @@ h6 {
   justify-content: space-between;
 }
 .orido_tm_header .logo img {
-  max-width: 170px;
-  max-height: 90px;
+  /* max-width: 170px;
+  max-height: 90px; */
 }
 .orido_tm_header .menu {
   position: relative;
@@ -473,15 +474,15 @@ h6 {
 
 .orido_tm_hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   float: left;
 }
 .orido_tm_hero .container {
-  min-height: 100vh;
+  min-height: 78vh;
 }
 .orido_tm_hero .content {
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -2172,7 +2173,7 @@ h6 {
   clear: both;
   float: left;
   background-color: var(--main-color);
-  padding: 135px 0px 120px 0px;
+  padding: 60px 0px 120px 0px;
   position: relative;
 }
 .orido_tm_contact .infobox {
@@ -2638,6 +2639,7 @@ h6 {
   .orido_tm_hero .short {
     margin-bottom: 25px;
   }
+
   .orido_tm_hero .short h3 {
     font-size: 65px;
     margin-bottom: 7px;

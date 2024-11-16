@@ -8,26 +8,32 @@ const Feedback = ({ dark }) => {
               <span>
                 Отзывы
                 <br />
-                от моих учениц
+                моих учениц
               </span>
             </h3>
           </div>
           <div className="testimonials_in">
-            <img src={`img/testimonials/${dark ? 2 : 1}.jpg`} alt="" />
+            <img src="img/woman-2.png" alt="" />
             <div className="info">
               <div className="text">
                 <p>
-                  “Awesome website! Easy to use and edit, it has a lot of
-                  options to design whatever you need, it is professional and
-                  fun. I was very successful creating my profile using designer
-                  which gave me unbelievable reach &amp; appreciation.”
+                  “ДжазакиЛлаху хайрон, устаза. Слушаю ваши уроки. Ма шаа Аллах
+                  так мне понравились, так глубоко вы все разбираете, пословно
+                  каждый аят, каждое слово. Хоть я и не разбираюсь в арабских
+                  словах, но понимаю, что в дальнейшем ин шаа Аллах буду
+                  проходить у вас мединский курс, до этого всегда боялась, так
+                  как думала, что не справлюсь, но слушая как вы проводите
+                  уроки, разжевываете каждое слово, появилось больше
+                  уверенности. Аллаhумма барик, устаза. Пусть Аллах обрадует вас
+                  Раем Фирдаус за все те знания, которые вы передаете сестрам.
+                  ❤️❤️❤️”
                 </p>
               </div>
               <div className="details">
                 <h3 className="name">
-                  <span>Albert Walkers</span>
+                  <span>Усманова Эма</span>
                 </h3>
-                <span className="job">Vivaco Group</span>
+                <span className="job">24.09.2024</span>
               </div>
             </div>
           </div>
